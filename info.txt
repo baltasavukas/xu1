@@ -1,0 +1,1 @@
+cmake . -G "Visual Studio 15 2017 Win64" -DXMRIG_DEPS=D:\Programs\Unity\Git\xu1\res\x64
