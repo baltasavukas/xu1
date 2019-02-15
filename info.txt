@@ -1,1 +1,10 @@
-cmake . -G "Visual Studio 15 2017 Win64" -DXMRIG_DEPS=D:\Programs\Unity\Git\xu1\res\x64
+## call "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\VsMSBuildCmd.bat"
+
+cd \github\xu1
+mkdir build
+cd build
+
+set CMAKE_PREFIX_PATH=\github\deps\msvc2017\libuv\x64\;\github\deps\msvc2017\openssl\x64\
+cmake -G "Visual Studio 15 2017 Win64" -T v141,host=x64 -DBOOST_ROOT=e:\programs\boost_1_67_0 -DWITH_HTTPD=OFF ..
+
+msbuild avg.sln /p:Configuration=Release
