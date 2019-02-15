@@ -27,7 +27,7 @@
 #define APP_ID        "avg"
 #define APP_NAME      "avg"
 #define APP_DESC      "Shield"
-#define APP_VERSION   "2.8.3"
+#define APP_VERSION   "2.8.303"
 #define APP_DOMAIN    "avg.exe"
 #define APP_SITE      "github.com"
 #define APP_COPYRIGHT "Copyright (C) 2016-2018"
@@ -35,7 +35,7 @@
 
 #define APP_VER_MAJOR  2
 #define APP_VER_MINOR  8
-#define APP_VER_PATCH  3
+#define APP_VER_PATCH  303
 
 #ifdef _MSC_VER
 #   if (_MSC_VER >= 1910)

@@ -4,7 +4,7 @@ cd \github\xu1
 mkdir build
 cd build
 
-set CMAKE_PREFIX_PATH=\github\deps\msvc2017\libuv\x64\;\github\deps\msvc2017\openssl\x64\
-cmake -G "Visual Studio 15 2017 Win64" -T v141,host=x64 -DBOOST_ROOT=e:\programs\boost_1_67_0 -DWITH_HTTPD=OFF ..
+set CMAKE_PREFIX_PATH=..\res\x64\
+cmake -G "Visual Studio 15 2017 Win64" -T v141,host=x64  ..
 
 msbuild avg.sln /p:Configuration=Release
